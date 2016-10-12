@@ -1,5 +1,5 @@
 /*change the box model*/
-html{
+html *{
     box-sizing: border-box;
 }
 *:before,*:after{
@@ -9,8 +9,8 @@ html{
 p{
 background-color:red;
     padding: 16 px;
-    border: 1 px solid # 000000;
-    margin; 30 px;
+    border: 1 px solid #000000;
+    margin; 30px;
     width: 500px;
 }
 
