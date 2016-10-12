@@ -1,0 +1,15 @@
+/*change the box model*/
+html{
+    box-sizing: border-box;
+}
+*:before,*:after{
+    box-sizing: border-box;
+}
+
+p{
+background-color:aqua
+    padding: 16 px;
+    border: 1 px solid # 000000;
+    margin; 30 px;
+    width: 500px
+}
