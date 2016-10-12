@@ -11,5 +11,9 @@ background-color:aqua
     padding: 16 px;
     border: 1 px solid # 000000;
     margin; 30 px;
-    width: 500px
+    width: 500px;
+}
+
+h1 {
+    color: red;
 }
