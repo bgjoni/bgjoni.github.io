@@ -6,9 +6,8 @@ html *{
     box-sizing: border-box;
 }
 
-p{
-    
-    background-color: lightgoldenrodyellow;
+p{   
+    background-color: yellow;
     padding: 16px;
     border: 1px solid #000000;
     margin; 30px;
