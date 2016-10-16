@@ -1,0 +1,56 @@
+html *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+#siteName{
+text-align: center;
+color: aquamarine;
+    background-color: red;
+        font-size: 50px;
+    
+
+}
+#city1{
+    display:inline;
+    border: 2px solid #000000;
+    padding: 5px;
+    font-size: 30px;
+    margin: 40px;
+        
+}
+#city2{
+    display:inline;
+    border: 2px solid #000000;
+    padding: 5px;
+    font-size: 30px;
+    margin: 40px;
+    
+}
+#city3{
+    display:inline;
+     border : 2px solid #000000;
+    font-size: 30px;
+    margin: 40;
+    
+    
+    
+}
+
+#franklin{
+    text-align: px;
+    background-color: bisque;
+    position: relative;
+    right:50px;
+    width: 500px;
+    position: center;
+    
+    
+        
+    font-size: 35;
+    color: skyblue;
+        padding: 20px;
+    
+}
+#
