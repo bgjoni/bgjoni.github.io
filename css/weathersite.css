@@ -58,7 +58,7 @@ nav a{
     background-color: bisque;
     left: 1000;
      width: 300px;
-    font-size: 35;
+    font-size: 3em;
     color: skyblue;
      padding: 20px;
     position: ;
@@ -76,6 +76,7 @@ nav a{
     text-align: left;
     display: block;
     margin-left: 20px;
+    font-size: 2em;
     
     
 }
@@ -114,6 +115,7 @@ nav a{
 #zip{
     font-weight: bold;
     height: static 100px;
+    padding-bottom: 400px;
 }
     
 
