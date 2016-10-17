@@ -71,10 +71,19 @@ nav a{
     
     
 }
+#maincontent{
+    max-width: 400px;
+    text-align: left;
+    display: block;
+    margin-left: 200px;
+    
+    
+}
 #weathertoday{
     background-color: lightblue; 
    width: right;
 }
+
 #temp{
     
     
