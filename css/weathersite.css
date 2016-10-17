@@ -45,10 +45,11 @@ main{
 
     
 }
-#ul{
+ul li{
     font-weight: bold;
     display: inline-block;
     margin: auto;
+    text-decoration: none;
 }
 nav {
     text-align: center;
@@ -92,7 +93,7 @@ nav a{
 }
 #temp{
     
-    
+    font-weight: bold;
 }
 #prec{
     font-weight: bold;
@@ -116,7 +117,6 @@ nav a{
 }
 #zip{
     font-weight: bold;
-    height: 100px;
     padding-bottom: 400px;
 }
     
