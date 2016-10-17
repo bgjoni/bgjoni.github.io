@@ -24,6 +24,7 @@ color: aquamarine;
     font-size: 30px;
     margin: 20px;
   background-color: chartreuse;
+    position: relative;
         
 }
 #city2{
@@ -57,10 +58,12 @@ color: aquamarine;
     font-size: 35;
     color: skyblue;
      padding: 20px;
+    position: 
     
 }
 #weathertoday{
-    background-color: aqua;    
+    background-color: lightblue; 
+   width: right;
 }
 #temp{
     
@@ -73,6 +76,8 @@ color: aquamarine;
 }
 #wind{
     font-weight: bold;
+    position: right;
+    
     
 }
 #dir{
@@ -89,7 +94,7 @@ color: aquamarine;
 }
 #zip{
     font-weight: bold;
-    height: auto 100px;
+    height: static 100px;
 }
     
 
