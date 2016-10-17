@@ -10,12 +10,9 @@ color: aquamarine;
     background-color: cornflowerblue;
         font-size: 50px;
 }
-#franklin{ 
-        text-align: center;
-        color: black;
-    padding: left 100px;
+main{
+    text-align: center;
 }
-
 
 #city1{
     display:inline;
@@ -24,7 +21,6 @@ color: aquamarine;
     font-size: 30px;
     margin: 20px;
   background-color: chartreuse;
-    position: relative;
         
 }
 #city2{
@@ -42,12 +38,19 @@ color: aquamarine;
     padding: 5px;
     font-size: 30px;
     background-color: chartreuse;
-    
 
     
 }
 #ul{
     font-weight: bold;
+    display: inline-block;
+    margin: auto;
+}
+nav {
+    text-align: center;
+}
+nav a{
+    min-width: 450px;
 }
 
 #franklin{
@@ -58,7 +61,14 @@ color: aquamarine;
     font-size: 35;
     color: skyblue;
      padding: 20px;
-    position: 
+    position: ;
+    text-align: center;
+        color: black;
+    padding: left 100px;
+    display: inline-block;
+    margin-top: 50px;
+
+    
     
 }
 #weathertoday{
