@@ -61,17 +61,14 @@ nav a{
 }
 
 #franklin{
-    text-align: 700px;
     background-color: bisque;
-    left: 1000;
      width: 300px;
     font-size: 3em;
     color: skyblue;
      padding: 20px;
-    position: ;
     text-align: center;
         color: black;
-    padding: left 100px;
+    padding-left: 100px;
     display: inline-block;
     margin-top: 50px;
 
@@ -88,9 +85,6 @@ nav a{
     
 }
 #weathertoday{
-    
-     
-   width: right;
     color: cornflowerblue;
 }
 #weathertoday h2{
@@ -106,10 +100,7 @@ nav a{
     
 }
 #wind{
-    font-weight: bold;
-    position: right;
-    
-    
+    font-weight: bold;   
 }
 #dir{
     font-weight: bold;
@@ -125,7 +116,7 @@ nav a{
 }
 #zip{
     font-weight: bold;
-    height: static 100px;
+    height: 100px;
     padding-bottom: 400px;
 }
     
