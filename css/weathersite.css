@@ -6,7 +6,7 @@ body{
 }
 #siteName{
 text-align: center;
-color: aquamarine;
+color: white;
     background-color: cornflowerblue;
         font-size: 75px;
 }
@@ -17,29 +17,31 @@ main{
 
 #city1{
     display:inline;
-    border: 2px solid #000000;
+    
     padding: 5px;
     font-size: 30px;
     margin: 20px;
-  background-color: chartreuse;
+  
+    color: cornflowerblue;
     /* text */
         
 }
 #city2{
     display:inline;
-    border: 2px solid #000000;
+    
     padding: 5px;
     font-size: 30px;
     margin: 20px;
-    background-color: chartreuse;
+    color:  cornflowerblue;
     
 }
 #city3{
     display:inline;
-    border : 2px solid #000000;
+    
     padding: 5px;
     font-size: 30px;
-    background-color: chartreuse;
+    color: cornflowerblue;
+    
 
     
 }
@@ -53,6 +55,8 @@ nav {
 }
 nav a{
     min-width: 450px;
+    color: cornflowerblue;
+    
 }
 
 #franklin{
@@ -74,19 +78,23 @@ nav a{
     
 }
 #maincontent{
-    max-width: 300px;
+    max-width: 500px;
     text-align: left;
     display: block;
     margin-left: 20px;
-    font-size: 2em;
+    font-size: 2.5em;
     
     
 }
 #weathertoday{
-    background-color: lightblue; 
+    
+     
    width: right;
+    color: cornflowerblue;
 }
-
+#weathertoday h2{
+    font-size: 3em;
+}
 #temp{
     
     
