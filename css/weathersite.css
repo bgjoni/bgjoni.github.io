@@ -8,11 +8,12 @@ body{
 text-align: center;
 color: aquamarine;
     background-color: cornflowerblue;
-        font-size: 50px;
+        font-size: 75px;
 }
 main{
     text-align: center;
 }
+/*  txt */
 
 #city1{
     display:inline;
@@ -120,4 +121,10 @@ nav a{
 }
     
 
+h1{
+    font-size: 35px;
     
+}
+h2{
+    font-size: 30px;
+}
