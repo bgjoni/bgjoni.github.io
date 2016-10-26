@@ -1,5 +1,8 @@
+
+
 html *{
     box-sizing: border-box;
+    
 }
 body{
     margin: 0px;
@@ -9,9 +12,11 @@ text-align: center;
 color: white;
     background-color: cornflowerblue;
         font-size: 75px;
+    
 }
 main{
     text-align: center;
+    
 }
 /*  txt */
 
@@ -45,7 +50,7 @@ main{
 
     
 }
-ul li{
+#cities li{
     font-weight: bold;
     display: inline-block;
     margin: auto;
@@ -84,6 +89,15 @@ nav a{
     
     
 }
+#maincontent p {
+    font-size: 1em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding-bottom: 40px;
+    
+}
 #weathertoday{
     color: cornflowerblue;
 }
@@ -115,10 +129,14 @@ nav a{
     font-weight: bold;
 }
 #zip{
+    padding-bottom: 100px;
+    margin-bottom: -50px;
     font-weight: bold;
-    padding-bottom: 400px;
 }
-    
+#hourlyforecast{
+    margin: 500px;
+    color: red;
+}    
 
 h1{
     font-size: 35px;
@@ -126,4 +144,42 @@ h1{
 }
 h2{
     font-size: 30px;
+}
+
+#hourlytemp{
+    list-style: none;
+    padding-left: -50px;
+}
+#tempalign{
+    position: relative;
+    left: 125px;
+    font-weight: bold;
+}
+    
+#mobpic{           
+padding-bottom: 0px;
+}
+.w3-table{
+    width:30%;
+}
+th{
+    text-align: center;
+    display:inline-block;
+    margin-left: 60px;
+    
+}
+.bigpic{
+    padding-top: 0px;
+width: 650px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    table { 
+    display: none;
+    }
+    .bigpic{
+        display: none;
+         
+        
+    }
 }

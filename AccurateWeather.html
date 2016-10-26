@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
         <meta charset='utf-8'> 
-    <link rel="stylesheet" type="text/css" href="../css/weathersite.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="weathersite.css" media="screen">
         <title>Franklin Weather</title>
        
  </head>
@@ -15,7 +15,7 @@
             <h1 id="siteName">Accurate Weather</h1>
             
         <nav>
-            <ul>
+            <ul id="cities">
                                                
               <li> <a href="#" id="city1">Franklin</a> </li> 
                 <li> <a href="#" id="city2"> Greenville</a></li>
@@ -40,11 +40,10 @@
             
             
               <section id="temp">
-                  Temp: 90 / 66 °F 
+                  Temp: 91 / 66 °F 
                     </section>
                 <br>
-                    
-                    <section id="prec">Prec: 0</section>
+                 <section id="prec">Prec: 0</section>
                     
                     
                     <section id="wind">
@@ -72,9 +71,160 @@
                     <section id="zip">
                 Zip: 83237
                     </section>  
+            <!--    <div class="hour">
+                    <p class="time">12 am</p>
+                    <p class="temp">67℉</p>
+                </div>
+                <div class="hour">
+                    <p class="time">12 am</p>
+                    <p class="temp">67℉</p>
+                </div>-->
+                    <div>
+                       <table class="w3-table">
+    <tr>
+      <th colspan="2">Hourly Forecast</th>
+        
+      
+    </tr>
+    <tr>
+      <td>12 am</td>
+      <td>67℉</td>
+      
+    </tr>
+    <tr>
+      <td>1 am </td>
+      <td>67℉</td>
+      
+    </tr>
+    <tr>
+      <td>2 am </td>
+      <td>69℉</td>
+      
+    </tr>
+  <tr>
+      <td>3 am </td>
+      <td>69℉</td>
+      
+    </tr>
+  <tr>
+      <td>4 am </td>
+      <td>69℉</td>
+      
+    </tr>
+  <tr>
+      <td>5 am </td>
+      <td>70℉</td>
+      
+    </tr>
+  <tr>
+      <td>6 am </td>
+      <td>69℉</td>
+      
+    </tr>
+  <tr>
+      <td>7 am </td>
+      <td>72℉</td>
+      
+    </tr>
+  <tr>
+      <td>8 am </td>
+      <td>74℉</td>
+      
+    </tr>
+  <tr>
+      <td>9 am </td>
+      <td>77℉</td>
+      
+    </tr>
+  <tr>
+      <td>10 am </td>
+      <td>79℉</td>
+      
+    </tr>
+  <tr>
+      <td>11 am </td>
+      <td>81℉</td>
+      
+    </tr>
+  <tr>
+      <td>12 pm </td>
+      <td>84℉</td>
+      
+    </tr>
+  <tr>
+      <td>1 pm </td>
+      <td>86℉</td>
+      
+    </tr>
+  <tr>
+      <td>2 pm </td>
+      <td>88℉</td>
+      
+    </tr>
+  <tr>
+      <td>3 pm </td>
+      <td>90℉</td>
+      
+    </tr>
+  <tr>
+      <td>4 pm </td>
+      <td>90℉</td>
+      
+    </tr>
+  <tr>
+      <td>5 pm </td>
+      <td>85℉</td>
+      
+    </tr>
+  <tr>
+      <td>6 pm </td>
+      <td>83℉</td>
+      
+    </tr>
+  <tr>
+      <td>7 pm </td>
+      <td>79℉</td>
+      
+    </tr>
+  <tr>
+      <td>8 pm </td>
+      <td>74℉</td>
+      
+    </tr>
+  <tr>
+      <td>9 pm </td>
+      <td>70℉</td>
+      
+    </tr>
+  <tr>
+      <td>10 pm </td>
+      <td>68℉</td>
+      
+    </tr>
+  <tr>
+      <td>11 pm </td>
+      <td>66℉</td>
+      
+    
+  
+      
+    </tr>
+  </table>
+                </div>
+                   
 
             
-            <img src="MOBILEWEATHER.jpg" alt="outline">
+            <img src="MOBILEWEATHER.jpg" alt="outline" id="mobpic">
+                <p>Mobile Wireframe</p>
+              
+                
+                <img src="IPADWEATHER.jpg"
+                     class="bigpic">
+                <p>I Pad Wireframe</p>
+                    
+                <img src="DESKTOPWEATHER.jpg"
+                     class="bigpic">     
+                <p> Desktop Wireframe</p>
             
             </div>
         </main>
@@ -86,7 +236,7 @@
                 <li>&copy;2016</li>
                    <li>Besmir Gjoni</li>
                 
-                <li>Last Updated: 15 .10 .2016
+                <li>Last Updated: 22 .10 .2016
                     <!-- Put today's date following the colon -->
                 </li>
             </ul>
