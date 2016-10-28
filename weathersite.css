@@ -191,7 +191,7 @@ width: 650px;
         display:none;
     }
 */
-@media screen and (max-width: 767px){
+@media screen and (min-width: 767px){
     #hourlytemp{
         display: none;
         
@@ -204,4 +204,7 @@ width: 650px;
 }
     
 }
+/*
 @media screen and (min-width: 1023px)
+*/
+    }
