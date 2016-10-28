@@ -175,17 +175,20 @@ th{
 width: 650px;
 }
 
+/*
 @media only screen and (max-width: 767px)  {
     #hourlytemp { 
     display: none;
     }
     .bigpic{
         display: none;
+
          
         
     }
+
     .bigsketch{
         display:none;
-    
     }
+*/
 }
