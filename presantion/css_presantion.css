@@ -6,6 +6,12 @@
     width: 500px;
     
 }
-#ferrari, textalignment, alignment  {
+#ferrari{
+    width: 680px;
+}
+#textalignment{
+    width:680px;
+}
+#alignment{
     width: 680px;
 }
