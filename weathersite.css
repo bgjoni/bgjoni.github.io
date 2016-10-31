@@ -175,23 +175,8 @@ th{
 width: 650px;
 }
 
-/*
-@media only screen and (max-width: 767px)  {
-    #hourlytemp { 
-    display: none;
-    }
-    .bigpic{
-        display: none;
 
-         
-        
-    }
-
-    .bigsketch{
-        display:none;
-    }
-*/
-@media screen and (min-width: 767px){
+@media screen and (max-width: 767px){
     #hourlytemp{
         display: none;
         
@@ -204,7 +189,7 @@ width: 650px;
 }
     
 }
-/*
+
 @media screen and (min-width: 1023px)
-*/
+
     }
