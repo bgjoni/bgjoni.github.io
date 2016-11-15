@@ -51,8 +51,8 @@ h1 {
 
 .page-header {
     background-image:
-    url(/homework/responsive_media/images/nps-logo_50.png),
-    url(/homework/responsive_media/images/banner_400.jpg);
+    url(logo_50px.jpg),
+    url(Banner_400.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: right;
     background-size: 2em, 100%;
@@ -124,7 +124,7 @@ h1 {
 }
 video {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -176,8 +176,8 @@ video {
     /*	Background Images - Use with medium screens */
     .page-header {
      background-image:
-        url(/homework/responsive_media/images/nps-logo_100.png),
-        url(/homework/responsive_media/images/banner_800.jpg);
+        url(logo_100px.jpg),
+        url(Banner_800.jpg);
     background-repeat: no-repeat, repeat;
     background-position: right;
     background-size: 3.5em, 100%;
@@ -228,8 +228,8 @@ video {
     /*	Background Images - Use with large screens */
     .page-header {
         background-image:
-            url(/homework/responsive_media/images/nps-logo_150.png),
-            url(/homework/responsive_media/images/banner_1200.jpg);
+            url(logo_150px.jpg),
+            url(Banner_1200.jpg);
         background-repeat: no-repeat, no-repeat;
         background-position: right;
         background-size: 5em, 100%;
