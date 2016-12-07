@@ -1,0 +1,203 @@
+
+
+html *{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0px;
+}
+#siteName{
+text-align: center;
+color: white;
+    background-color: cornflowerblue;
+        font-size: 75px;
+    
+}
+main{
+    text-align: center;
+    
+}
+/*  txt */
+
+#city1{
+    display:inline;
+    
+    padding: 5px;
+    font-size: 30px;
+    margin: 20px;
+  
+    color: red;
+    /* text */
+        
+}
+#city2{
+    display:inline;
+    
+    padding: 5px;
+    font-size: 30px;
+    margin: 20px;
+    color:  cornflowerblue;
+    
+}
+#city3{
+    display:inline;
+    
+    padding: 5px;
+    font-size: 30px;
+    color: cornflowerblue;
+    
+
+    
+}
+#cities li{
+    font-weight: bold;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+}
+nav {
+    text-align: center;
+}
+nav a{
+    min-width: 450px;
+    color: cornflowerblue;
+    font-size: 1em;
+    
+}
+
+#cityname{
+    background-color: yellow;
+     width: 300px;
+    font-size: 3em;
+    color: skyblue;
+     padding: 20px;
+/*    text-align: center;*/
+        color: black;
+    display: inline-block;
+    margin-top: 50px;
+
+    
+    
+}
+#maincontent{
+    max-width: 500px;
+    text-align: left;
+    display: block;
+    margin-left: 20px;
+    font-size: 2.5em;
+    
+    
+}
+#maincontent p {
+    font-size: 1em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    
+    
+}
+#weathertoday{
+    color: cornflowerblue;
+    font-size: 60px;
+}
+#temp{
+    
+    font-weight: bold;
+}
+#prec{
+    font-weight: bold;
+    
+    
+}
+#wind{
+    font-weight: bold;   
+}
+#dir{
+    font-weight: bold;
+    
+    
+}
+#longitude{
+    font-weight: bold;
+    
+}
+#latitude{
+    font-weight: bold;
+}
+#zip{
+    padding-bottom: 100px;
+    margin-bottom: -50px;
+    font-weight: bold;
+}
+#hourlyforecast{
+    margin: 500px;
+    color: red;
+}    
+
+h1{
+    font-size: 35px;
+    
+}
+h2{
+    font-size: 30px;
+}
+
+#hourlytemp{
+    list-style: none;
+    padding-left: -50px;
+}
+#tempalign{
+    position: relative;
+    left: 125px;
+    font-weight: bold;
+}
+    
+#mobpic{           
+padding-bottom: 0px;
+    padding-top: 0px;
+}
+#hourlytemp{
+    width:30%;
+}
+th{
+    text-align: center;
+    display:inline-block;
+    margin-left: 60px;
+    
+}
+.bigpic{
+    padding-top: 0px;
+    padding-bottom: 0px;
+width: 650px;
+}
+
+/* MOBILE VIEW */
+@media screen and (max-width: 767px){
+    #hourlytemp{
+        display: none;
+       
+        
+}
+.bigpic{
+    display: none;
+}
+.bigsketch{
+    display:none;
+}
+  
+ #weathertoday h2{
+    font-size: 60px; 
+} 
+}
+/* Computer View*/
+@media screen and (min-width: 1023px)
+    
+#weathertoday h2{
+    font-size: 60px;
+}
+    
+
+    
+    }
